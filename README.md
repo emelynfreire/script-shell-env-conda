@@ -18,3 +18,11 @@ Currently supported shells are:
 See 'conda init --help' for more information and options.
 
 IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+SOLUCION FOR THE PROBLEM:
+
+$ #!/bin/bash
+$ source activate
+$ conda deactivate
+$ conda activate MY_ENV
+$ echo "you code works!"
